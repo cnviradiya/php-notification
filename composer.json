@@ -1,0 +1,19 @@
+{
+    "name": "cnviradiya/hello-world",
+    "description": "My first Composer project",
+    "authors": [
+        {
+            "name": "Chirag Viradiya",
+            "email": "viradiyachirag91@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
